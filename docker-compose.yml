@@ -1,0 +1,23 @@
+version: "3.0"
+services:
+  bowtie-analysis-api:
+    platform: linux/amd64
+    image: dgbtechnologies/bowtie-analysis-api:latest
+    container_name: bowtie-analysis-api
+    ports:
+      - 8003:8000
+    volumes:
+      - ./projects:/home/projects
+    environment:
+      BACKUP_FOLDER: /home/projects/
+    restart: always
+    
+  bowtie-analysis-ui:
+    platform: linux/amd64
+    image: dgbtechnologies/bowtie-analysis-ui:latest
+    container_name: bowtie-analysis-ui
+    ports:
+      - 8083:8080
+    restart: always
+    depends_on:
+      - bowtie-analysis-api

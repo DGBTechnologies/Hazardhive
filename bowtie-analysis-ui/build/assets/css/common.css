@@ -1,0 +1,359 @@
+/* Side Bar Container CSS Start */
+
+.side-bar-container {
+	height: 92vh;
+	min-height: 475px;
+	width: 12.9%;
+	min-width: 156px;
+	float: left;
+	background-color: rgb(246,248,252);
+	border-right: 1px solid rgb(185, 185, 185);
+}
+
+/* Side Bar Container CSS End */
+
+.heading {
+	font-size: 1.15rem;
+	font-weight: 400;
+}
+
+label {
+	font-size: 14px;
+	font-weight: 400;
+}
+.form-control {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.redColor {
+	color: rgb(255, 31, 31);
+}
+
+.themeColor {
+	color: #00ACEE;
+}
+
+
+
+textarea {
+	resize: vertical;
+}
+
+.form-row {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* mandatory field icon */
+.mandatory {
+	color: red;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+/*-------------------------Common css of simulation and  dft --------*/
+.canvas-area {
+	height: 87vh;
+	min-height: 425px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.selectedIcon {
+	border-style: inset;
+	border-color: #f3f3f3;
+	height: 27px;
+	width: 27px;
+	background-color: #fff;
+}
+
+.icon {
+	height: 30px;
+	width: 30px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+
+.main-area {
+	width: 100%;
+	float: left;
+	height: 92vh;
+	min-height: 475px;
+}
+
+.one-component-container {
+	height: 100%;
+	min-height: 465px;
+	width: 100%;
+
+}
+
+.material-icons{
+	cursor: pointer;
+}
+
+
+.input-box {
+	position: relative;
+}
+
+
+.matIcons {
+	font-size: 35px;
+	cursor: pointer;
+	margin: 0px;
+	padding: 0px;
+	line-height: 0;
+}
+
+
+/* unknown */
+.elementList {
+	border: 1px solid #e7e7e7;
+	background-color: white;
+	border-radius: 2px;
+	padding: 5px;
+	width: 100%;
+	max-height: 100px;
+	overflow: auto;
+}
+
+
+.universalContainer{
+	z-index: 0;
+	margin: 8px;
+	height: 72.7vh ;
+	max-height: 72.7vh;
+	overflow: auto;
+	position: relative;
+	border-radius: 4px;
+}
+.universalContainerWithTabs{
+	z-index: 0;
+	margin: 8px;
+	height: 69vh ;
+	max-height: 69vh;
+	overflow: auto;
+	position: relative;
+	border-radius: 4px;
+}
+
+.hoverLink{
+	cursor: pointer;
+	color:  #00ACEE;	
+}
+
+
+.matTabStyle{
+	width: 52px !important;
+	height: 19px !important;
+	min-width: 0 !important; 
+	padding: 0px !important;
+}
+.deleteBtn{
+	display: flex;
+	justify-content: center;
+	float: none;
+}
+.tooltip-content {
+	word-break: break-word;
+	max-width: 5rem;
+}
+
+
+/* Right Side Bar */
+
+
+
+.selectedWindow {
+	background-color: rgb(172, 172, 172);
+}
+
+.notSelectedWindow {
+	background-color: rgb(231, 231, 231);
+}
+
+
+
+.sidebar-declarations {
+	height: 21%;
+	min-height: 21%;
+	padding: 0px 3px 3px 3px;
+	overflow: auto;
+	margin-top: 4%;
+}
+
+
+
+/* End Side Bar */
+
+/* End Automata + Labels-Reward + Properties Conatiner CSS */
+
+/* Start Table CSS (Common: Declarations + Lables + Rewards + Properties + Declaration Side Bar) */
+
+table {
+	width: 100%;
+	table-layout: fixed;
+}
+
+table th,
+table td {
+	font-size: 14px;
+	font-weight: 400;
+	height: 10%;
+	color: black;
+	border: 1px solid rgb(185, 185, 185);
+	/* overflow: hidden;
+    text-overflow: ellipsis; */
+	word-wrap: break-word;
+	white-space: pre-line;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+table th {
+	text-align: center;
+	background-color: rgb(185, 185, 185);
+	border-top: 0px;
+	position: sticky;
+	top: 0%;
+}
+
+table td {
+	text-align: left;
+	background-color: white;
+}
+
+
+table td tr .form-control {
+	height: 30px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.noOverflow{
+	text-overflow: ellipsis!important;
+	white-space: nowrap!important;
+	overflow: hidden!important;
+}
+/* End Table CSS */
+
+/* Start PopUps CSS */
+
+.popUpHeading {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.level1PopUp {
+	z-index: 25;
+}
+
+.level2PopUp {
+	z-index: 35;
+}
+
+.popUp {
+	position: absolute;
+	padding: 20px;
+	border-radius: 7px;
+	background: rgb(231, 231, 231);
+	box-shadow: 0px 0px 5px #6d6d6d;
+	max-height: 90vh;
+	overflow: auto;
+}
+
+.canvasPopUp {
+	top: 5%;
+	left: 7%;
+	width: 87%;
+	min-width: 650px;
+}
+
+.largePopUp {
+	top: 5%;
+	left: 21%;
+	width: 60%;
+	min-width: 650px;
+}
+
+.bigPopUp {
+	top: 5%;
+	left: 25%;
+	width: 50%;
+	min-width: 550px;
+}
+
+.mediumPopUp {
+	top: 10%;
+	left: 33%;
+	width: 35%;
+	min-width: 400px;
+}
+
+.smallPopUp {
+	top: 33%;
+	left: 40%;
+	width: 25%;
+	min-width: 300px;
+}
+
+.infoIcon {
+	font-size: 12px;
+	cursor: pointer;
+}
+
+/* End PopUps CSS */
+
+/* navbarcss */
+.nav-header {
+	flex-direction: row;
+	background-color: #f6f8fc;
+	border-bottom: 2px solid rgb(181, 181, 181);
+	position: relative;
+	z-index: 19;
+	height: 4.5vh;
+	padding-bottom:10px;
+}
+
+.btn-success {
+	width: 75px;
+}
+
+.form-group {
+	margin-bottom: 0.4rem;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 4px;
+    font-size: small;
+    line-height: 1;
+}
+
+
+/* Scrollbar css */
+::-webkit-scrollbar {   
+	height: 2px;   
+	width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #e2e1e1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgb(197, 195, 195);
+	border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(189, 188, 188);
+}
+
