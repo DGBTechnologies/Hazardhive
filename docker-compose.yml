@@ -5,7 +5,7 @@ services:
     image: dgbtechnologies/bowtie-analysis-api:latest
     container_name: bowtie-analysis-api
     ports:
-      - 8003:8000
+      - 8004:8000
     volumes:
       - ./projects:/home/projects
     environment:
