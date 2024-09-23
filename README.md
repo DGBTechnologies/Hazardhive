@@ -1,5 +1,5 @@
 # Hazardhive
-## Version: latest (dev not-fully-tested)
+## Version: latest
 
 A barrier based risk assessment tool.
 
@@ -69,3 +69,7 @@ Open the link http://127.0.0.1:8083 in a browser window
 
 ### Stop
 Run stop.bat file.
+
+
+## License
+To obtain a license, please send an email to contact@dgbtek.com.
